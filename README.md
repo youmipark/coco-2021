@@ -1,3 +1,3 @@
 #coco-2021 update
 
-css got so much better!
+jongo is so lovely and fun!
