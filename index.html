@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/styles.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcom to coco</title>
+    <title>Welcom to Space World</title>
 </head>
 <body>
-    <div id="status-bar">
+    <!-- <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fas fa-wifi"></i>
-            <!--To Do: WIFI Icon-->
+            
         </div>
         <div class="status-bar__column">
             <span>11:11</span>
@@ -20,11 +21,26 @@
             <span>200%</span>
             <i class="fas fa-battery-full"></i>
             <i class="fas fa-bolt"></i>
-            <!--Battery Icon-->
-            <!--Lightling Icon-->
         </div>
-    </div>
- <script src="https://kit.fontawesome.com/f0d56e2434.js" 
+    <div> -->
+
+<header class="welcome-header">
+        <h1 class="welcome-header__title">Welcom to Space World</h1>
+        <p class="welcome-header__text">
+          If you have a Space World Account,
+          log in with your email or Phone number.
+        </p>
+ </header>    
+
+<form id="login-form">
+        <input type="text" placeholder="Email or Phone number"/>
+        <input type="password" placeholder="password"/>
+        <input type="submit" value="Log In"/>
+        <input type="submit" value="Sign Up"/>
+        <a href="#">Find Space world Account or Password</a>
+</form>
+
+    <script src="https://kit.fontawesome.com/f0d56e2434.js" 
  crossorigin="anonymous"></script>
 </body>
 </html>
